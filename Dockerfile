@@ -1,5 +1,5 @@
 FROM library/debian:11
-MAINTAINER Jakub Bentkowski <bentkowski.jakub@gmail.com>
+MAINTAINER Andrii Chukhalenko <andreysuew@gmail.com>
 
 RUN apt-get update \
         && apt-get install -y libspdlog1 \
@@ -10,4 +10,4 @@ ENV         USER=container HOME=/home/container
 WORKDIR     /home/container
 
 COPY        ./entrypoint.sh /entrypoint.sh
-CMD         [ "/bin/bash", "/entrypoint.sh" ]
+CMD         [ "/bin/bash", "/entrypoint.sh" ]F
