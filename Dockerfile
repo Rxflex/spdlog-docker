@@ -17,6 +17,7 @@ RUN apt-get update \
 	cmake \
 	libglfw3-dev \
 	libglm-dev \
+	libspdlog1 \
 	libspdlog-dev \
 	libassimp-dev \
 	qt5-default \
